@@ -1,1 +1,126 @@
 /* Write your CSS here */
+.latest-match-card-container {
+  margin-top: 20px;
+  width: 120vw;
+}
+
+.latest-match-heading {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Bree serif';
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  border-radius: 5px;
+  padding: 10px 15px 10px 15px;
+}
+
+.latest-match-logo-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.latest-match-details-main {
+  color: #ffff;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.latest-match-team-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.latest-match-date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.latest-match-logo {
+  width: 100px;
+  height: 100px;
+}
+
+.latest-match-details-info {
+  width: 100%;
+  padding-right: 16px;
+  padding-left: 16px;
+  margin-top: 20px;
+}
+
+.match-info-item {
+  width: 43%;
+  border: 1px solid #ffff;
+  padding: 8px;
+  border-radius: 25px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  min-height: 100px;
+  max-height: 200px;
+}
+
+.latest-match-details-label {
+  color: #ffff;
+  font-size: 14px;
+}
+
+.latest-match-details-value {
+  color: #ffff;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 120vw;
+  }
+
+  .latest-match-logo-container {
+    width: 60vw;
+  }
+
+  .latest-match-details-main {
+    width: 100vw;
+  }
+
+  .latest-match-team-name {
+    font-size: 22px;
+  }
+
+  .latest-match-date {
+    font-size: 18px;
+  }
+
+  .latest-match-logo {
+    min-height: 150px;
+    min-width: 150px;
+    max-height: 200px;
+  }
+
+  .latest-match-details-info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .latest-match-details-label {
+    font-size: 18px;
+  }
+
+  .latest-match-details-value {
+    font-size: 18px;
+  }
+}
